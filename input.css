@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  /* Colores */
+  --color-primary: #0ea5e9; /* Sky 500 */
+  --color-secondary: #f97316; /* Orange 500 */
+  --color-accent: #f43f5e; /* Pink 500 */
+  --color-polonio: #f8dbff; /* Polonio */
+
+  /* Breakpoints */
+  --breakpoint-xs: 350px;
+}
+
+.social-button {
+  @apply p-2 size-10 xs:size-12 flex items-center justify-center rounded-full hover:scale-110 transition-transform duration-300;
+}
